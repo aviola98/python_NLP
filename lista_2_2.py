@@ -59,3 +59,7 @@ frequence = nltk.FreqDist(tokens_without_stopwords)
 mais_comuns = frequence.most_common()  
 #printing the most common words without stopwords     
 print(mais_comuns)
+
+#closing file
+
+infile.close()
